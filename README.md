@@ -4,8 +4,8 @@ TaskFlow is a Trello-like Kanban board built for a 48-hour take-home project. It
 
 ## Live Demo
 
-- Live App: [Vercel Link](https://example.com)
-- Repository: [GitHub Link](https://github.com/your-username/taskflow)
+- Live App: [https://task-flow-zeta-seven.vercel.app](https://task-flow-zeta-seven.vercel.app)
+- Repository: [https://github.com/mehmetaliyilmaz0/TaskFlow](https://github.com/mehmetaliyilmaz0/TaskFlow)
 
 ## Features
 
@@ -107,6 +107,7 @@ NEXT_PUBLIC_APP_URL=http://localhost:3000
 ```
 
 The optional `NEXT_PUBLIC_APP_URL` is useful once local auth redirects and deployment URLs are wired.
+On Vercel, set this to your production domain, e.g. `https://task-flow-zeta-seven.vercel.app`.
 
 ## Supabase Setup
 
@@ -152,6 +153,8 @@ The goal was to make the core experience stable and easy to evaluate instead of 
 - More advanced drag polish, including DragOverlay and richer hover feedback
 
 ## Reviewer Notes
+
+The root route redirects authenticated users to `/boards` and unauthenticated users to `/login`.
 
 For the quickest evaluation path, I recommend this flow:
 
