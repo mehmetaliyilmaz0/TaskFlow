@@ -65,7 +65,7 @@ export function SortableCardItem({
         <button
           type="button"
           aria-label={`Drag ${card.title}`}
-          className="rounded-full border border-slate-200 px-3 py-2 text-sm font-semibold text-slate-500 transition hover:bg-slate-50 hover:text-slate-700 disabled:cursor-not-allowed disabled:opacity-60"
+          className="touch-none rounded-full border border-slate-200 px-3 py-2 text-sm font-semibold text-slate-500 transition hover:bg-slate-50 hover:text-slate-700 disabled:cursor-not-allowed disabled:opacity-60"
           disabled={disabled}
           {...attributes}
           {...listeners}
