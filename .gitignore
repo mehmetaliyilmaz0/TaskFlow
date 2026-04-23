@@ -6,6 +6,7 @@ supabase/.temp/
 
 .env.local
 .env.*.local
+AGENTS.md
 
 tsconfig.tsbuildinfo
 npm-debug.log*
